@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Steve Cogswell","email":"steve.cogswell@naes.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/circleCardEC00983D3F4748D3ADCE94DA308E1A57.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"circleCard","displayName":"expanding Circle Card","guid":"circleCardEC00983D3F4748D3ADCE94DA308E1A57","visualClassName":"Visual","version":"1.0.0","description":"Test Visual","supportUrl":"https://naescorp.sharepoint.com/","gitHubUrl":""},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}
