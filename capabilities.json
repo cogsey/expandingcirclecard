@@ -1,0 +1,156 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Measure",
+            "name": "measure",
+            "kind": "Measure"
+        }
+    ],
+    "objects": {
+        "circle": {
+            "displayName": "Circle",
+            "properties": {
+                "expand": {
+                    "displayName": "Expand %",
+                    "description": "The percent by which the default circle expands when the mouse hovers on it.",
+                    "type": {
+                        "integer": true
+                    }
+                },
+                "circleColor": {
+                    "displayName": "Color",
+                    "description": "The fill color of the circle.",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "circleTransparency": {
+                    "displayName": "Transparency %",
+                    "description": "The circle transparency.",
+                    "type": {
+                        "integer": true
+                    }
+                },
+                "showOutline": {
+                    "displayName": "Show Outline",
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "circleStrokeColor": {
+                    "displayName": "Outline Color",
+                    "description": "The color of the circle outline.",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "circleThickness": {
+                    "displayName": "Thickness",
+                    "description": "The circle thickness.",
+                    "type": {
+                        "integer": true
+                    }
+                }
+            }
+        },
+        "labelProperties": {
+            "displayName": "Label",
+            "properties": {
+                "displayUnits": {
+                    "displayName": "Display units",
+                    "type": {
+                        "formatting": {
+                            "labelDisplayUnits": true
+                        }
+                    }
+                },
+                "precision": {
+                    "displayName": "Decimal places",
+                    "type": {
+                        "integer": true
+                    }
+                },
+                "labelFontFamily": {
+                    "displayName": "Font",
+                    "type": {
+                        "formatting": {
+                            "fontFamily": true
+                        }
+                    }
+                },
+                "labelFontSize": {
+                    "displayName": "Font size",
+                    "type": {
+                        "integer": true
+                    }
+                },
+                "labelFontColor": {
+                    "displayName": "Font color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "categoryProperties": {
+            "displayName": "Category",
+            "properties": {
+                "show": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "catFontFamily": {
+                    "displayName": "Font",
+                    "type": {
+                        "formatting": {
+                            "fontFamily": true
+                        }
+                    }
+                },
+                "catFontSize": {
+                    "displayName": "Font size",
+                    "type": {
+                        "integer": true
+                    }
+                },
+                "catFontColor": {
+                    "displayName": "Font color",
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "dataViewMappings": [
+        {
+            "conditions": [
+                {
+                    "measure": {
+                        "max": 1
+                    }
+                }
+            ],
+            "single": {
+                "role": "measure"
+            }
+        }
+    ]
+}

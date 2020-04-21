@@ -1,0 +1,25 @@
+{
+    "visual":{
+        "name":"circleCard",
+        "displayName":"expanding Circle Card",
+        "guid":"circleCardEC00983D3F4748D3ADCE94DA308E1A57",
+        "visualClassName":"Visual",
+        "version":"1.0.0",
+        "description":"Test Visual",
+        "supportUrl":"https://naescorp.sharepoint.com/",
+        "gitHubUrl":""
+    },
+    "apiVersion":"2.6.0",
+    "author":{
+        "name":"Steve Cogswell",
+        "email":"steve.cogswell@naes.com"
+    },
+    "assets":{
+        "icon":"assets/icon.png"
+    },
+    "externalJS":[
+    ],
+    "style":"style/visual.less",
+    "capabilities":"capabilities.json",
+    "stringResources":[]
+}
